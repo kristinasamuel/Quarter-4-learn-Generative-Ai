@@ -4,12 +4,13 @@ from fastapi import FastAPI
 # create the app
 app = FastAPI()
 
-# Show this on main page ("/")
+# Home page ("/")
 @app.get("/")
 def read_root():
+    # return a simple message
     return {"message": "Hello, FastAPI!"}
 
-# Show item details when someone visits /items/any_number
+# Show item details 
 @app.get("/items/{item_id}")
 def read_items(item_id: int, q: str = None):
     return {"item_id": item_id, "q": q}
