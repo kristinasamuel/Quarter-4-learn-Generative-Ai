@@ -4,7 +4,7 @@
 # Metadata (timestamp + session ID) is auto-generated for each request.
 # use FastAPI for routes and Pydantic for input/output data models.
 
-from fastapi import FastAPI,HTTPException
+from fastapi import FastAPI,HTTPException,Depends
 from pydantic import BaseModel,Field
 from datetime import datetime,UTC
 from uuid import uuid4
@@ -51,20 +51,19 @@ async def get_user(user_id:str , role:str | None = None):
     }
     return user_info
 
-# Chat endpoint - POST request (takes message and returns response)
+# Chat endpoint POST request (takes message and returns response)
 @app.post("/chat/",response_model=Response)
 async def chat(message:Message):
     if not message.text.strip():   # If user sends empty text
         raise HTTPException(
-            status_code=400, detail="Message text cannot be empty"  # Return message
-        )
+            status_code=400, detail="Message text cannot be empty")  # Return message
     reply_text = f"Hello, {message.user_id}! You said: '{message.text}'. How can I assist you today?"
 
     # Return a proper response model with generated metadata
     return Response(
         user_id = message.user_id,
         reply = reply_text,
-        metadata = Metadata   # Create new timestamp & session ID
+        metadata = Metadata()   # Create new timestamp & session ID
 
     )    
 
