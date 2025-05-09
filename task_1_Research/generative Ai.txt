@@ -1,4 +1,4 @@
-What is generative Ai?
+## What is generative Ai?
 
 Generative artificial intelligence, often called generative AI or gen AI, is a type of AI that can create new 
 content like conversations, stories, images, videos, and music. It can learn about different topics such as languages, 
@@ -8,7 +8,7 @@ In Simple Words:
 Generative AI is a type of artificial intelligence that creates new content like text, images, music, audio, 
 and videos, based on existing data.
 
-Best Practices for Using Generative AI:
+## Best Practices for Using Generative AI:
 
 1. Set Clear Goals – Know what you want AI to do.
 
@@ -27,7 +27,7 @@ Why is Generative AI Important?
 3. Solves problems – Finds new solutions by learning from existing info.
 
 
-What’s Next for Generative AI?
+## What’s Next for Generative AI?
 
 1. Improving reliability: AI needs to be more accurate and consistent in its outputs.
 
