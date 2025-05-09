@@ -18,24 +18,24 @@ FastAPI is a **modern, high-performance** web framework for building APIs with P
 
 ## 🛠️Project Setup
 
-## Step 1: Initialize a new FastAPI project
+- Step 1: Initialize a new FastAPI project
 uv init task_2
 
-# Step 2: Move into the project directory
+- Step 2: Move into the project directory
 cd task_2
 
-# Step 3: Add FastAPI and standard dependencies
+- Step 3: Add FastAPI and standard dependencies
 uv add fastapi[standard]
 
-# Step 4: Activate the virtual environment
+- Step 4: Activate the virtual environment
 .venv\Scripts\activate
 
-# Step 5: Run the development server
+- Step 5: Run the development server
 fastapi dev main.py
 
-# Visit at:
-# http://127.0.0.1:8000
-# Swagger Docs: http://127.0.0.1:8000/docs
+- Visit at:
+http://127.0.0.1:8000
+Swagger Docs: http://127.0.0.1:8000/docs
 
 ## What is `uv`?
 
