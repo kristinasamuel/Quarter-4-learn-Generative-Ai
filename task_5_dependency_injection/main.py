@@ -1,6 +1,8 @@
 # Dependency Injection
 # This project shows how to use Dependency Injection in FastAPI.
+
 # 1.Simple Dependency Injection (No Parameters)
+
 def get_simple_goal():
     return{"goal":"we are builidng AI A gents Workforce"}
 @app.get("/get-simple-goal")    
@@ -8,7 +10,6 @@ def simple_goal(response:Annotated[dict, Depends(get_simple_goal)]):
     return response
 
 # 2. Dependency with Parameter
-
 # depency function
 def get_goal(username:str):
     return {"gaol":"We are building AI Agents Workforce","username":username}

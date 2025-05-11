@@ -13,14 +13,14 @@ Instead of writing the same logic again and again, you write a helper function a
 - Write less repeated code
 - Add/remove functionality with less editing
 
-### 💡 Real-Life Example:
+###  Real-Life Example:
 Imagine logging in users:  
 Instead of checking login credentials in every API route, you create a `login_check()` function once and inject it wherever you need it.
 
-### ❌ Without Dependency Injection:  
+###  Without Dependency Injection:  
 You would write the same login check code again and again in every route.
 
-### ✅ With Dependency Injection:  
+### With Dependency Injection:  
 You write one function called `login_check()` and **inject** it wherever you need. FastAPI will run it automatically before the main logic.
 
 This saves time and keeps your code clean.
