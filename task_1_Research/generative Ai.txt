@@ -35,5 +35,4 @@ Why is Generative AI Important?
 
 3. Building trust: Overcome issues like bias and make AI results transparent.
 
-3. Enhanced Creativity – Empower AI to generate more complex and creative content.
-
+4. Enhanced Creativity – Empower AI to generate more complex and creative content.
