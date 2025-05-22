@@ -68,5 +68,4 @@ Generics in Python let you write code that can work with many different types, n
 We use  TContext so the agent can handle different kinds of context data without changing the code. It allows the agent to work with any type of context, making it more flexible.
 
 ## Summary
-The OpenAI Agents SDK is easy and powerful. It helps you build smart and safe AI agents that work well and are easy to understand.
-
+The OpenAI Agents SDK is easy and powerful. It helps you create smart AI agents that can understand, think, and do tasks safely. The SDK keeps your agents working well with clear rules and lets you watch what they do.
