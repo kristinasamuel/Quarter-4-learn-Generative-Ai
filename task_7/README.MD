@@ -20,11 +20,11 @@ Agents SDK is built on four simple but powerful ideas:
 
 -  **Agents** are like humans who follow instructions and use tools to solve tasks.
 
--  **Handoffs** are like teamwork — one agent can ask another for help.
+-  **Handoffs** : Teamwork — one agent can ask another for help.
 
--  **Guardrails** are like safety rules to keep agents in control.
+-  **Guardrails** : Are like safety rules to keep agents in control.
 
--  **Tracing & Observability** is like watching and understanding what the agents are doing.
+-  **Tracing & Observability** :  Watching and understanding what the agents are doing.
 
 
 ##  Questions to Help You Understand
@@ -55,7 +55,7 @@ The system prompt is in the Agent class to guide how the agent should reply. Mak
 
 ## 2b. But the user prompt is passed as parameter in the run method of Runner and the method is a classmethod
 
-The run method in the Runner class is a classmethod, so you can call it using the class name like Runner.run(prompt) without making an object. You pass the user’s message as a parameter, and it runs the agent to get a response.
+The run method in the Runner class is a classmethod, so you can call it using the class name like Runner.run() without making an object. You pass the user’s message as a parameter, and it runs the agent to get a response.
 
 ## 3. What is the purpose of the Runner class?
 
