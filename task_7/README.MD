@@ -11,7 +11,7 @@ It can talk, think, use tools, and do tasks for us.
 ### What is the OpenAI Agents SDK?
 
 The SDK is a set of tools that helps you build your own AI agent.  
-It makes it easy to create agents that can understand, think, and act.all with simple code.
+It makes it easy to create agents that can understand, think, and act. All with simple code.
 
 ---
 
