@@ -1,4 +1,3 @@
-
 # Task 07: OpenAI Agents SDK
 
 # Exploring the OpenAI Agents SDK
