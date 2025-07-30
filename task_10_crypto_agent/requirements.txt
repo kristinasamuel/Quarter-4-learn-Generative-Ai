@@ -1,0 +1,5 @@
+requests
+chainlit
+python-dotenv
+tensorflow
+tensorflow-probability
