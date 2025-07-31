@@ -12,7 +12,7 @@ def get_latest_news():
     print("Get latest news tool called successfully")
     return "Latest news: The Ai industry is booming with new advancements every day."
 
-# Sub-agents
+# Sub-agents 
 plant_agent = Agent(
     name='Plant Agent',
     instructions="You are a plant expert agent.Your task is to Handle plant-related queries. ",
@@ -23,7 +23,7 @@ medicine_agent = Agent(
     instructions="You are a medicine expert.your task is to handle medicine-related queries.",
 )
 
-# Parent agent
+# Parent agent 
 triage_agent = Agent(
     name="Triage Agent",
     instructions="""
